@@ -1,6 +1,12 @@
 function shortcut(s1, s2) {
-  // your code here
-}
+  // Check if either string is empty
+  if (s1 === "" || s2 === "") {
+    return "";
+  }
+  
+ else{
+	 return s1.charAt(0) + s2.charAt(0);
+ }
 
 // Do not change the code below.
 const s1 = prompt("Enter s1:");
